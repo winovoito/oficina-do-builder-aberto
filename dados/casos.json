@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nome": "A padaria e o pão que sobra",
+    "descricao": "Uma rede de padarias joga fora pão todo fim de dia. Ela tem três anos de vendas diárias por loja, com dia da semana, feriados e clima, e quer saber quanto produzir amanhã. Erros custam desperdício ou falta de pão, nada grave.",
+    "criterios": {"logica_escrevivel": false, "estruturado": true, "rotulado": true, "volume_exemplos": 5475, "decisoes_mes": 150, "custo_erro": "medio", "varios_passos": false, "caminho_varia": false, "precisa_explicar": false, "precisa_documentos": false},
+    "esperado": {"abordagem": "ml", "salvaguardas_contem": []}
+  },
+  {
+    "id": 2,
+    "nome": "O e-mail do cliente irritado",
+    "descricao": "Uma empresa de software recebe quinhentos e-mails de suporte por dia e quer encaminhar cada um para a fila certa: cobrança, problema técnico, cancelamento ou elogio. Não existe histórico organizado. Se errar a fila, um atendente corrige.",
+    "criterios": {"logica_escrevivel": false, "estruturado": false, "rotulado": false, "volume_exemplos": 0, "decisoes_mes": 15000, "custo_erro": "baixo", "varios_passos": false, "caminho_varia": false, "precisa_explicar": false, "precisa_documentos": false},
+    "esperado": {"abordagem": "llm", "salvaguardas_contem": []}
+  },
+  {
+    "id": 3,
+    "nome": "O desconto do aniversário",
+    "descricao": "Uma loja quer dar dez por cento de desconto para clientes no mês do aniversário, desde que tenham comprado no último ano.",
+    "criterios": {"logica_escrevivel": true, "estruturado": true, "rotulado": false, "volume_exemplos": 0, "decisoes_mes": 3000, "custo_erro": "baixo", "varios_passos": false, "caminho_varia": false, "precisa_explicar": false, "precisa_documentos": false},
+    "esperado": {"abordagem": "regra", "salvaguardas_contem": []}
+  },
+  {
+    "id": 4,
+    "nome": "A fintech e as transações suspeitas",
+    "descricao": "Uma fintech processa duzentas mil transações por dia e precisa bloquear fraudes em menos de um segundo. Tem histórico de fraudes confirmadas, mas elas são raras: menos de uma em mil. Bloquear um cliente honesto ou deixar passar uma fraude custa caro.",
+    "criterios": {"logica_escrevivel": false, "estruturado": true, "rotulado": true, "volume_exemplos": 6000000, "decisoes_mes": 6000000, "custo_erro": "alto", "varios_passos": false, "caminho_varia": false, "precisa_explicar": true, "precisa_documentos": false},
+    "esperado": {"abordagem": "ml", "salvaguardas_contem": ["revisão humana", "regras fixas"]}
+  },
+  {
+    "id": 5,
+    "nome": "O pesquisador de fornecedores",
+    "descricao": "Um time de compras quer um assistente que, a partir de um pedido como 'preciso de três orçamentos de embalagem biodegradável', pesquise fornecedores, consulte o cadastro interno, monte uma tabela comparativa e rascunhe os e-mails de cotação. Cada pedido segue um caminho diferente, e um e-mail enviado ao fornecedor não volta atrás.",
+    "criterios": {"logica_escrevivel": false, "estruturado": false, "rotulado": false, "volume_exemplos": 0, "decisoes_mes": 200, "custo_erro": "alto", "varios_passos": true, "caminho_varia": true, "precisa_explicar": false, "precisa_documentos": false},
+    "esperado": {"abordagem": "agente", "salvaguardas_contem": ["aprovação humana"]}
+  },
+  {
+    "id": 6,
+    "nome": "A clínica e as perguntas dos pacientes",
+    "descricao": "Uma clínica quer responder dúvidas de pacientes sobre preparo de exames, com base nos protocolos internos. Uma resposta errada pode fazer um paciente perder o exame ou se prejudicar.",
+    "criterios": {"logica_escrevivel": false, "estruturado": false, "rotulado": false, "volume_exemplos": 0, "decisoes_mes": 4000, "custo_erro": "alto", "varios_passos": false, "caminho_varia": false, "precisa_explicar": true, "precisa_documentos": true},
+    "esperado": {"abordagem": "llm", "salvaguardas_contem": ["rag", "aprovação humana"]}
+  }
+]
