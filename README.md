@@ -9,16 +9,20 @@ A pergunta que guia tudo: **este problema pede uma regra, um modelo de machine l
 | Pasta | O que é |
 |---|---|
 | `notebooks/01_decisor.ipynb` | Lab 1 completo: a Ficha de decisão vira código, é testada em 6 casos e um modelo de linguagem preenche a ficha a partir de texto livre |
+| `notebooks/02a_demanda.ipynb` | Lab 2a: previsão de demanda de uma rede de padarias fictícia, com teste automático de vazamento |
+| `notebooks/02b_churn.ipynb` | Lab 2b: churn com limiar escolhido pelo custo, explicação por cliente e modelo salvo com hash |
+| `notebooks/02c_fraude.ipynb` | Lab 2c: fraude rara (0,1%), curva de precisão e recall, regras + modelo + fila humana |
+| `notebooks/02d_api.ipynb` | Lab 2d: o modelo de churn vira uma API com FastAPI, validação de entrada e testes |
 | `fichas/` | Ficha de decisão "Regra, ML, LLM ou agente?" para imprimir ou copiar |
 | `revisor/revisor-7-erros.md` | Revisor dos 7 erros, versão curta: revisa sistemas com IA contra 7 padrões de falha |
-| `oficina/` | Código de apoio: o Decisor, a extração de critérios e um adaptador de provedores |
+| `oficina/` | Código de apoio: o Decisor, a extração de critérios, o adaptador de provedores, os geradores de dados sintéticos e as soluções de referência da Bancada 2 |
 | `prompts/` | Prompts versionados como arquivos |
 | `dados/casos.json` | Os 6 casos fictícios do lab, com gabarito |
 | `tests/` | Testes automáticos |
 
 ## Como usar
 
-**No Colab:** abra `notebooks/01_decisor.ipynb` e rode as células. As partes 1 e 2 não precisam de chave nenhuma.
+**No Colab:** abra `notebooks/01_decisor.ipynb` e rode as células. As partes 1 e 2 não precisam de chave nenhuma. Os labs da Bancada 2 não usam modelo de linguagem: rodam sem chave, com dados sintéticos gerados no próprio notebook.
 
 **No seu computador:**
 
