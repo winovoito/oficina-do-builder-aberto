@@ -1,0 +1,7 @@
+[
+ {"pergunta": "Quanto tempo de estacionamento é gratuito?", "referencia": "2 horas", "resposta": "O estacionamento é gratuito por 2 horas para quem tem comprovante de consulta.", "humano_aprova": true},
+ {"pergunta": "Quanto tempo de estacionamento é gratuito?", "referencia": "2 horas", "resposta": "O estacionamento é gratuito por 3 horas.", "humano_aprova": false},
+ {"pergunta": "Qual o limite do Pix à noite?", "referencia": "R$ 1.000,00", "resposta": "O limite é de R$ 1.000,00 por transação, e o aumento é automático depois de 30 dias.", "humano_aprova": false},
+ {"pergunta": "Qual a vigência do NDA padrão?", "referencia": "5 anos", "resposta": "O NDA padrão vale por 5 anos a partir da assinatura.", "humano_aprova": true},
+ {"pergunta": "Qual o e-mail da ouvidoria?", "referencia": "ouvidoria@valeverde.example", "resposta": "Não encontrei essa informação nos documentos disponíveis.", "humano_aprova": false}
+]
