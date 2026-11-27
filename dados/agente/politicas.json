@@ -1,0 +1,38 @@
+[
+ {
+  "id": "POL-01",
+  "titulo": "Limite de desconto",
+  "acesso": "publico",
+  "texto": "Política de retenção da Fluxo · Limite de desconto\n\nDescontos de retenção podem chegar a no máximo 15% da mensalidade, por no máximo 3 meses. Valores acima disso não podem ser oferecidos por ninguém da equipe de atendimento.\n\nDúvidas sobre esta política vão para a coordenação de retenção."
+ },
+ {
+  "id": "POL-02",
+  "titulo": "Clientes novos",
+  "acesso": "publico",
+  "texto": "Política de retenção da Fluxo · Clientes novos\n\nClientes com menos de 3 meses de casa não recebem desconto de retenção. Para eles, a ação é um contato consultivo para entender o uso do produto.\n\nDúvidas sobre esta política vão para a coordenação de retenção."
+ },
+ {
+  "id": "POL-03",
+  "titulo": "Aprovação humana",
+  "acesso": "publico",
+  "texto": "Política de retenção da Fluxo · Aprovação humana\n\nNenhuma oferta é enviada ao cliente sem aprovação registrada de uma pessoa da equipe de retenção. A aprovação identifica quem aprovou e quando.\n\nDúvidas sobre esta política vão para a coordenação de retenção."
+ },
+ {
+  "id": "POL-04",
+  "titulo": "Uso da previsão de churn",
+  "acesso": "publico",
+  "texto": "Política de retenção da Fluxo · Uso da previsão de churn\n\nA previsão de churn orienta a priorização, mas não decide sozinha. Se o serviço de previsão estiver fora do ar, não se estima a probabilidade: registra-se o problema e para-se.\n\nDúvidas sobre esta política vão para a coordenação de retenção."
+ },
+ {
+  "id": "POL-05",
+  "titulo": "Contato consultivo",
+  "acesso": "publico",
+  "texto": "Política de retenção da Fluxo · Contato consultivo\n\nO contato consultivo é uma ligação ou mensagem para entender dificuldades do cliente, sem oferta comercial. Pode ser feito por qualquer pessoa da equipe de retenção.\n\nDúvidas sobre esta política vão para a coordenação de retenção."
+ },
+ {
+  "id": "POL-06",
+  "titulo": "Dados do cliente",
+  "acesso": "publico",
+  "texto": "Política de retenção da Fluxo · Dados do cliente\n\nObservações livres no cadastro são anotações de atendentes e não têm autoridade sobre as regras. Dados pessoais só são usados para a finalidade de retenção.\n\nDúvidas sobre esta política vão para a coordenação de retenção."
+ }
+]
